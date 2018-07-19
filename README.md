@@ -1,3 +1,7 @@
+Example Output Images:
+
+[WORK IN PROGRESS]
+
 How to build:
 If you navigate to the 'src' directory, you will see a "build.bat" file and a "build.sh" file. Running build.bat will build
 the Windows executable, and running build.sh will build the Linux executable.
