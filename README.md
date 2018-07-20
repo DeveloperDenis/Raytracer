@@ -1,13 +1,16 @@
-Example Output Images:
+# Sample Output Images
 
-[WORK IN PROGRESS]
+![Sample Image 1](/output/default_scene.png)
+![Sample Image 2](/output/easy3.png)
+![Sample Image 4](/output/interpolation.png)
+![Sample Image 5](/output/spheres.png)
 
-How to build:
+# Building
+
 If you navigate to the 'src' directory, you will see a "build.bat" file and a "build.sh" file. Running build.bat will build
 the Windows executable, and running build.sh will build the Linux executable.
 
-
-How to run the builds:
+# Running
 
 My submission comes with executables built for both Linux (Raytracer) and Windows (Raytracer.exe). The builds have been
 tested on Linux Mint and Windows 10. The Windows build should work with versions as far back as Windows 7, and the Linux
@@ -24,15 +27,13 @@ a default window size of 640 x 480 is used and "default_scene.ray" is loaded. Wi
 an example would be "1280x720". The ray file argument must contain the file name including the .ray extension.
 
 
-Application Usage:
+# Application Features
 
 When the application is started, there will be a rectangle near the top of the screen. This is the button to start the
 raytracer using the ray scene file selected through the command line arguments. The progress bar at the bottom of the
 window will fill up as the raytracer progressively calculates the values for each pixel.
 The window can be resized at any time and the raytracer will use the new window width and height the next time it runs.
 You toggle the UI's visibility by right-clicking in the window.
-
-Features:
 
 There is support for plane, box, sphere, and triangle (and by extension, triangulated mesh) intersections. Triangles have normal and material interpolation across the triangle surface.
 
