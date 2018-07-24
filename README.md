@@ -12,7 +12,7 @@ the Windows executable, and running build.sh will build the Linux executable.
 
 # Running
 
-My submission comes with executables built for both Linux (Raytracer) and Windows (Raytracer.exe). The builds have been
+There are executables built for both Linux (Raytracer) and Windows (Raytracer.exe) in the /build/ folder. The builds have been
 tested on Linux Mint and Windows 10. The Windows build should work with versions as far back as Windows 7, and the Linux
 build should work on any Linux distribution that uses XWindows as the windowing system (most distros).
 
